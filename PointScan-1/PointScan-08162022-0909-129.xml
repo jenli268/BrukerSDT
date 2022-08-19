@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PVScan version="5.5.64.500" date="8/16/2022 11:08:49 AM" notes="">
+  <SystemIDs SystemID="9CB6-79B3-D279-BC44-6D70-1A61-8653-8F59">
+    <SystemID SystemID="4799" Description="Seattle, Andy Shih" />
+  </SystemIDs>
+  <PVStateShard>
+    <PVStateValue key="activeMode" value="FLIM" />
+    <PVStateValue key="bitDepth" value="13" />
+    <PVStateValue key="currentScanAmplitude">
+      <IndexedValue index="XAxis" value="-7.6" />
+      <IndexedValue index="YAxis" value="7.6" />
+    </PVStateValue>
+    <PVStateValue key="currentScanCenter">
+      <IndexedValue index="XAxis" value="0" />
+      <IndexedValue index="YAxis" value="0" />
+    </PVStateValue>
+    <PVStateValue key="dwellTime" value="3.6" />
+    <PVStateValue key="flimADCResolution" value="8" />
+    <PVStateValue key="flimPhotonCountingMode" value="False" />
+    <PVStateValue key="framePeriod" value="7943.1168" />
+    <PVStateValue key="interlacedScanTrackCount" value="0" />
+    <PVStateValue key="laserPower">
+      <IndexedValue index="0" value="179.48717948718" description="Tunable" />
+      <IndexedValue index="1" value="0" description="Fixed (1040nm)" />
+    </PVStateValue>
+    <PVStateValue key="laserWavelength">
+      <IndexedValue index="0" value="950" description="InSight" />
+    </PVStateValue>
+    <PVStateValue key="linesPerFrame" value="512" />
+    <PVStateValue key="maxVoltage">
+      <IndexedValue index="XAxis" value="-7.6" />
+      <IndexedValue index="YAxis" value="7.6" />
+    </PVStateValue>
+    <PVStateValue key="micronsPerPixel">
+      <IndexedValue index="XAxis" value="1.15201263662841" />
+      <IndexedValue index="YAxis" value="1.15201263662841" />
+      <IndexedValue index="ZAxis" value="1" />
+    </PVStateValue>
+    <PVStateValue key="minVoltage">
+      <IndexedValue index="XAxis" value="7.6" />
+      <IndexedValue index="YAxis" value="-7.6" />
+    </PVStateValue>
+    <PVStateValue key="objectiveLens" value="Olympus 20x" />
+    <PVStateValue key="objectiveLensMag" value="20" />
+    <PVStateValue key="objectiveLensNA" value="1" />
+    <PVStateValue key="opticalZoom" value="1" />
+    <PVStateValue key="plimExcitationCycleOnTime" value="10" />
+    <PVStateValue key="plimExcitationCyclePeriod" value="300" />
+    <PVStateValue key="plimExcitationCyclesPerPixel" value="100" />
+    <PVStateValue key="plimLaserModulationDelay" value="0" />
+    <PVStateValue key="pixelsPerLine" value="512" />
+    <PVStateValue key="pmtGain">
+      <IndexedValue index="0" value="820" description="Green" />
+      <IndexedValue index="1" value="0" description="Red" />
+      <IndexedValue index="2" value="900" description="FarRed" />
+      <IndexedValue index="3" value="0" description="Blue" />
+    </PVStateValue>
+    <PVStateValue key="positionCurrent">
+      <SubindexedValues index="XAxis">
+        <SubindexedValue subindex="0" value="1106.042" />
+      </SubindexedValues>
+      <SubindexedValues index="YAxis">
+        <SubindexedValue subindex="0" value="-133.551" />
+      </SubindexedValues>
+      <SubindexedValues index="ZAxis">
+        <SubindexedValue subindex="0" value="11.05" />
+      </SubindexedValues>
+    </PVStateValue>
+    <PVStateValue key="preampFilter" value="Filter2500KHz" description="2.50 MHz" />
+    <PVStateValue key="preampOffset">
+      <SubindexedValues index="0">
+        <SubindexedValue subindex="0" value="0" description="Ch1" />
+        <SubindexedValue subindex="1" value="-0.03" description="Ch2" />
+        <SubindexedValue subindex="2" value="-0.0119047621" description="Ch3" />
+        <SubindexedValue subindex="3" value="-0.0009803922" description="Ch4" />
+      </SubindexedValues>
+    </PVStateValue>
+    <PVStateValue key="rastersPerFrame" value="1" />
+    <PVStateValue key="rotation" value="0" />
+    <PVStateValue key="samplesPerPixel" value="18" />
+    <PVStateValue key="scanLinePeriod" value="15.5139" />
+    <PVStateValue key="twophotonLaserDispersion">
+      <IndexedValue index="0" value="74" description="DeepSee" />
+    </PVStateValue>
+    <PVStateValue key="twophotonLaserPower">
+      <IndexedValue index="0" value="1400" />
+    </PVStateValue>
+    <PVStateValue key="useInterlacedScanPattern" value="False" />
+    <PVStateValue key="xYStageGridIndex" value="-1" />
+    <PVStateValue key="xYStageGridXIndex" value="-1" />
+    <PVStateValue key="xYStageGridYIndex" value="-1" />
+    <PVStateValue key="yAspectExpansion" value="1" />
+    <PVStateValue key="zDevice" value="0" />
+  </PVStateShard>
+  <AcquisitionData FLIMTimeBinNanoseconds="0.0390625" PLIMTimeBinMicroseconds="1.1328125" />
+  <Sequence type="Point Scan" cycle="1" time="11:08:49.9339119" xYStageGridNumXPositions="4" xYStageGridNumYPositions="4" xYStageGridOverlapPercentage="10" xYStageGridXOverlap="58.9830469953747" xYStageGridYOverlap="58.9830469953747">
+    <PVStateShard />
+    <AcquisitionData />
+    <PVFLIMPointScan PLIM="True">
+      <PVFLIMPointScanElement Repetitions="1" Trigger="Never" PLIMExcitationTime="10" PLIMCyclePeriod="290" PLIMCyclesPerPoint="2000" FLIMTimeBinNanoseconds="0.0390625" PLIMTimeBinMicroseconds="1.09375" AsyncSyncFrequency="Never" VoltageOutputCategoryName="None" VoltageRecCategoryName="Current">
+        <ImagingPoints>
+          <PVGalvoPointElement InitialDelay="2.2" InterPointDelay="2.2" Duration="700" SpiralRevolutions="5" AllPointsAtOnce="False" Points="Custom Order (skip over missing indices)" Indices="1-12" SkipMissingIndices="True">
+            <Point Index="1" X="0.283964365256125" Y="0.383073496659243" IsSpiral="False" SpiralWidth="0.197368421052632" SpiralHeight="0.197368421052632" SpiralSizeInMicrons="116.413908543503" />
+            <Point Index="2" X="0.315144766146993" Y="0.388641425389755" IsSpiral="False" SpiralWidth="0.197368421052632" SpiralHeight="0.197368421052632" SpiralSizeInMicrons="116.413908543503" />
+            <Point Index="3" X="0.347438752783964" Y="0.39977728285078" IsSpiral="False" SpiralWidth="0.197368421052632" SpiralHeight="0.197368421052632" SpiralSizeInMicrons="116.413908543503" />
+            <Point Index="4" X="0.473273942093541" Y="0.488864142538975" IsSpiral="False" SpiralWidth="0.197368421052632" SpiralHeight="0.197368421052632" SpiralSizeInMicrons="116.413908543503" />
+            <Point Index="5" X="0.501113585746102" Y="0.5" IsSpiral="False" SpiralWidth="0.197368421052632" SpiralHeight="0.197368421052632" SpiralSizeInMicrons="116.413908543503" />
+            <Point Index="6" X="0.524498886414254" Y="0.514476614699332" IsSpiral="False" SpiralWidth="0.197368421052632" SpiralHeight="0.197368421052632" SpiralSizeInMicrons="116.413908543503" />
+            <Point Index="7" X="0.219376391982183" Y="0.300668151447661" IsSpiral="False" SpiralWidth="0.197368421052632" SpiralHeight="0.197368421052632" SpiralSizeInMicrons="116.413908543503" />
+            <Point Index="8" X="0.262806236080178" Y="0.299554565701559" IsSpiral="False" SpiralWidth="0.197368421052632" SpiralHeight="0.197368421052632" SpiralSizeInMicrons="116.413908543503" />
+            <Point Index="9" X="0.300668151447661" Y="0.297327394209354" IsSpiral="False" SpiralWidth="0.197368421052632" SpiralHeight="0.197368421052632" SpiralSizeInMicrons="116.413908543503" />
+            <Point Index="10" X="0.339643652561247" Y="0.295100222717149" IsSpiral="False" SpiralWidth="0.197368421052632" SpiralHeight="0.197368421052632" SpiralSizeInMicrons="116.413908543503" />
+            <Point Index="11" X="0.369710467706013" Y="0.293986636971047" IsSpiral="False" SpiralWidth="0.197368421052632" SpiralHeight="0.197368421052632" SpiralSizeInMicrons="116.413908543503" />
+            <Point Index="12" X="0.402004454342984" Y="0.292873051224944" IsSpiral="False" SpiralWidth="0.197368421052632" SpiralHeight="0.197368421052632" SpiralSizeInMicrons="116.413908543503" />
+          </PVGalvoPointElement>
+        </ImagingPoints>
+      </PVFLIMPointScanElement>
+    </PVFLIMPointScan>
+    <Frame relativeTime="0" absoluteTime="0.115999999999985" index="0">
+      <File type="FLIM" filename="LifetimeData_Cycle00001_000001.sdt" />
+      <File type="PLIM" filename="LifetimeData_PLIM_Cycle00001_000001.sdt" />
+      <PVStateShard />
+      <AcquisitionData />
+    </Frame>
+  </Sequence>
+</PVScan>
